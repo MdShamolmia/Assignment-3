@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3</title>
+    <!-- font awesome cdn links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap cdn links  -->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- header start  -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container mt-4">
+                <a class="navbar-brand " href="#">Pro Edu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Success</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Register</a>
+                        </li>
+
+                    </ul>
+                    <form class="" role="search">
+                        <button class="btn btn-outline-info" type="submit">Register</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- carousel slider start  -->
+        <section class="container mt-5">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Get Started Digital <br> Learning</h5>
+                            <p>It is a long established fact that a reader will be distracted by the readable <br>
+                                content of a page when looking at its layout.</p>
+                            <button class="btn btn-info text-white px-3">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                            <button class="btn btn-info text-white px-3">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                            <button class="btn btn-info text-white px-3">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- carousel slider end  -->
+    </header>
+    <!-- header end  -->
+
+    <main class="container">
+        <!-- Courses-text  -->
+
+        <div class="text-center mt-5">
+            <h1>Discover Our Popular <br> Courses</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable <br> content of a page
+                when looking at its layout</p>
+        </div>
+        <!-- course start -->
+        <!-- card-1 -->
+        <section class="container mt-5">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up the bulk
+                                        of
+                                        the card.</p>
+                                    <h5 class="text-info">Price : 20$</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-2  -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up the bulk
+                                        of
+                                        the card.</p>
+                                    <h5 class="text-info">Price : 20$</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-3  -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up the bulk
+                                        of
+                                        the card.</p>
+                                    <h5 class="text-info">Price : 20$</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-4  -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up the bulk
+                                        of
+                                        the card.</p>
+                                    <h5 class="text-info">Price : 20$</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-5  -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up the bulk
+                                        of
+                                        the card.</p>
+                                    <h5 class="text-info">Price : 20$</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-6  -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up the bulk
+                                        of
+                                        the card.</p>
+                                    <h5 class="text-info">Price : 20$</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center mt-5">
+                <button class="btn btn-info text-white px-5 py-3 fs-5">See More Courses</button>
+            </div>
+        </section>
+
+        <!-- Explore learning  -->
+        <section class="container mt-5">
+            <div class="row ">
+                <div class="col">
+                    <img src="images/working.png" alt="">
+                </div>
+                <div class="col d-flex flex-column justify-content-center ">
+                    <h1>Explore The elearning Institute</h1>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour, or
+                        randomised words which don't look even slightly believable. If you are going
+                        to use a passage of Lorem Ipsum, you need to be sure.
+                        <br>
+                        Anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+                        generators on the Internet tend to repeat predefined.
+                    </p>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <h1>3.2K+</h1>
+                            <p>Online Course</p>
+                            <button class="btn btn-info">Read More</button>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <h1>600+</h1>
+                            <p>Expert member</p>
+                        </div>
+                        <div class="col-md-6 col-lg-4 ">
+                            <h1>1k+</h1>
+                            <p>Rating & Review</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ready to join  -->
+
+        <section style="height: 300px;"
+            class=" mt-5 bg-primary rounded-3 d-flex justify-content-center align-items-center">
+            <div class="text-white pe-5">
+                <h1>Ready to join?</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout.</p>
+            </div>
+            <div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light btn-lg text-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Register Now
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Meet Our Successfull Students card start -->
+
+        <section class="mt-5">
+            <div class="text-center my-5">
+                <h1>Meet Our Successfull <br> Students</h1>
+                <p>It is a long established fact that a reader will be distracted by the <br> readable content of a page
+                    when looking at its layout.</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="images/student/student-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Awlad Hossain</h5>
+                            <p class="card-text">UIUX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Jannatul Islam</h5>
+                            <p class="card-text">Motion Design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Imran Hossain</h5>
+                            <p class="card-text">Graphic Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nishi Akter</h5>
+                            <p class="card-text">Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <button class="btn btn-info text-white px-4 py-2 fs-5">View All</button>
+            </div>
+        </section>
+        <!-- students card end  -->
+
+        <!-- Students Feedback start  -->
+        <section class="my-5">
+            <div class="text-center my-5">
+                <h1>Some Students Feedback</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable <br> content of a page
+                    when
+                    looking at its layout.</p>
+            </div>
+
+            <!-- Carousel wrapper -->
+            <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center"
+                data-mdb-ride="carousel">
+                <!-- Controls -->
+                <div class="d-flex justify-content-center mb-4">
+                    <button class="carousel-control-prev position-relative" type="button"
+                        data-mdb-target="#carouselMultiItemExample" data-mdb-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next position-relative" type="button"
+                        data-mdb-target="#carouselMultiItemExample" data-mdb-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- Inner -->
+                <div class="carousel-inner py-4">
+                    <!-- Single item -->
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img class="rounded-circle shadow-1-strong mb-4"
+                                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar"
+                                        style="width: 150px;" />
+                                    <h5 class="mb-3">Anna Deynah</h5>
+                                    <p>UX Designer</p>
+                                    <p class="text-muted">
+                                        <i class="fas fa-quote-left pe-2"></i>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                                        officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                                    </p>
+                                    <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <img class="rounded-circle shadow-1-strong mb-4"
+                                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
+                                        style="width: 150px;" />
+                                    <h5 class="mb-3">John Doe</h5>
+                                    <p>Web Developer</p>
+                                    <p class="text-muted">
+                                        <i class="fas fa-quote-left pe-2"></i>
+                                        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                                        suscipit laboriosam, nisi ut aliquid commodi.
+                                    </p>
+                                    <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li>
+                                            <i class="fas fa-star-half-alt fa-sm"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <img class="rounded-circle shadow-1-strong mb-4"
+                                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
+                                        style="width: 150px;" />
+                                    <h5 class="mb-3">Maria Kate</h5>
+                                    <p>Photographer</p>
+                                    <p class="text-muted">
+                                        <i class="fas fa-quote-left pe-2"></i>
+                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                                        praesentium voluptatum deleniti atque corrupti.
+                                    </p>
+                                    <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="far fa-star fa-sm"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single item -->
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img class="rounded-circle shadow-1-strong mb-4"
+                                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).webp" alt="avatar"
+                                        style="width: 150px;" />
+                                    <h5 class="mb-3">John Doe</h5>
+                                    <p>UX Designer</p>
+                                    <p class="text-muted">
+                                        <i class="fas fa-quote-left pe-2"></i>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                                        officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                                    </p>
+                                    <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <img class="rounded-circle shadow-1-strong mb-4"
+                                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).webp" alt="avatar"
+                                        style="width: 150px;" />
+                                    <h5 class="mb-3">Alex Rey</h5>
+                                    <p>Web Developer</p>
+                                    <p class="text-muted">
+                                        <i class="fas fa-quote-left pe-2"></i>
+                                        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                                        suscipit laboriosam, nisi ut aliquid commodi.
+                                    </p>
+                                    <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li>
+                                            <i class="fas fa-star-half-alt fa-sm"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <img class="rounded-circle shadow-1-strong mb-4"
+                                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(5).webp" alt="avatar"
+                                        style="width: 150px;" />
+                                    <h5 class="mb-3">Maria Kate</h5>
+                                    <p>Photographer</p>
+                                    <p class="text-muted">
+                                        <i class="fas fa-quote-left pe-2"></i>
+                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                                        praesentium voluptatum deleniti atque corrupti.
+                                    </p>
+                                    <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="far fa-star fa-sm"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single item -->
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img class="rounded-circle shadow-1-strong mb-4"
+                                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(6).webp" alt="avatar"
+                                        style="width: 150px;" />
+                                    <h5 class="mb-3">Anna Deynah</h5>
+                                    <p>UX Designer</p>
+                                    <p class="text-muted">
+                                        <i class="fas fa-quote-left pe-2"></i>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                                        officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                                    </p>
+                                    <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <img class="rounded-circle shadow-1-strong mb-4"
+                                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(8).webp" alt="avatar"
+                                        style="width: 150px;" />
+                                    <h5 class="mb-3">John Doe</h5>
+                                    <p>Web Developer</p>
+                                    <p class="text-muted">
+                                        <i class="fas fa-quote-left pe-2"></i>
+                                        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                                        suscipit laboriosam, nisi ut aliquid commodi.
+                                    </p>
+                                    <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li>
+                                            <i class="fas fa-star-half-alt fa-sm"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <img class="rounded-circle shadow-1-strong mb-4"
+                                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(7).webp" alt="avatar"
+                                        style="width: 150px;" />
+                                    <h5 class="mb-3">Maria Kate</h5>
+                                    <p>Photographer</p>
+                                    <p class="text-muted">
+                                        <i class="fas fa-quote-left pe-2"></i>
+                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                                        praesentium voluptatum deleniti atque corrupti.
+                                    </p>
+                                    <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="far fa-star fa-sm"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Inner -->
+            </div>
+            <!-- Carousel wrapper -->
+
+        </section>
+
+        <!-- Students Feedback end  -->
+
+        <!-- Frequently Asked Questions start  -->
+
+        <section class=" mx-5">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            what are different flexbox and grid?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <p> The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was
+                                designed for layout in one dimension - either a row or a column. Grid was designed for
+                                two-dimensional layout - rows, and columns at the same time.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            what are bootstrap and tailwind difference?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Bootstrap is used for creating responsive web and mobile applications whereas Tailwind
+                                CSS is used to create customized user interfaces.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            what is css box model?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>In CSS, the term "box model" is used when talking about design and layout.
+
+                                The CSS box model is essentially a box that wraps around every HTML element. It consists
+                                of: margins, borders, padding, and the actual content. The image below illustrates the
+                                box model:</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                what is a semantic tag?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <p>Semantic HTML tags are tags that define the meaning of the content they contain. For
+                                    example, tags like
+                                <header>, <article>, and <footer> are semantic HTML tags. They clearly indicate the role
+                                            of the content they contain. On the other hand, tags like<div> and <span>
+                                                    are typical examples of non-semantic HTML elements.</p>
+                                            </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+
+        <!-- Frequently Asked Questions end  -->
+
+        <!-- Trusted by over 800+ companies start  -->
+        <section class="container my-5">
+            <h1 class="text-center mb-5">Trusted by over 800+ companies</h1>
+
+            <div class="row">
+                <div class="col d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
+                    <img src="images/company/company-1.png" alt="">
+                </div>
+                <div class="col d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
+                    <img src="images/company/company-2.png" alt="">
+                </div>
+                <div class="col d-none d-sm-blockd-sm-none d-md-block d-md-none d-lg-block">
+                    <img src="images/company/company-3.png" alt="">
+                </div>
+                <div class="col d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
+                    <img src="images/company/company-4.png" alt="">
+                </div>
+                <div class="col d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
+                    <img src="images/company/company-5.png" alt="">
+                </div>
+                <div class="col d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
+                    <img src="images/company/company-6.png" alt="">
+                </div>
+            </div>
+
+        </section>
+        <!-- Trusted by over 800+ companies end  -->
+
+
+    </main>
+
+    <!-- footer start  -->
+    <footer style="height: 300px;" class=" bg-black d-flex justify-content-center align-items-center ">
+        <div class="text-white text-center">
+            <h1>Pro Edu</h1>
+            <p>Office 41, Zawaya Buildin, Ghala Muscat, <br> Sultanate of Oman <br> Privacy Ploicy | Terms of use</p>
+            <div class="">
+                <i class="fa-brands fa-facebook fs-5"></i>
+                <i class="fa-brands fa-twitter ms-2"></i>
+                <i class="fa-brands fa-linkedin ms-2"></i>
+                <i class="fa-brands fa-tiktok ms-2"></i>
+            </div>
+        </div>
+
+    </footer>
+    <!-- footer end  -->
+
+    <!-- js cdn links  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
